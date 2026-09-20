@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+._*
+
+# 编辑器 / IDE
+.idea/
+.vscode/
+*.swp
+*~
+
+# 日志与临时文件
+*.log
+npm-debug.log*
+
+# 说明：
+# data/route.json      —— OSRM 原始轨迹，是 route.js 的来源，保留
+# data/geocode_raw.json —— Nominatim 地理编码原始返回，保留（便于核对坐标来源）
